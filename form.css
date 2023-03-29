@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(238, 240, 240)
+}
+
+.heading {
+  color: rgb(91, 120, 120);
+  margin-top: 1rem;
+  font-family: serif;
+  font-size: 50px;
+  font-weight: 1500;
+}
+
+.subheading {
+  color: rgb(91, 120, 120);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+}
+
+.label2 {
+  color: rgb(91, 120, 120);
+  font-size: 1.25rem;
+}
+
+.actual {
+  background-color: rgb(238, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(238, 240, 240);
+  width: 600px;
+  height: 600px;
+  box-shadow: 2px 4px 10px gray;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 12px;
+}
+
+.input {
+  color: rgb(3, 3, 3);
+  padding: 5px 10px;
+  border: 3px solid rgb(34, 33, 33);
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: rgba(91, 120, 120, 0.237);
+}
+
+label {
+  font-size: 18px;
+  letter-spacing: 1.4px;
+}
+
+.tablemargin {
+  background-color: rgb(238, 240, 240);
+  margin-top: 2px;
+}
+
+.btn {
+  background-color: rgb(170, 198, 222);
+  color: white;
+  padding: 10px 20px;
+  font-size: large;
+  font-weight: 690;
+  border-radius: 10px;
+}
+.btn:hover{
+  background-color: rgb(84, 160, 227);
+  color: white;
+  cursor: pointer;
+}
+
+.table {
+  background-color: rgba(244, 246, 246, 0.5);
+  border: 1px solid black;
+  margin: 43px auto;
+  border-radius: 0.6rem;
+  border-width: 0.2rem;
+}
+
+
+.td {
+  border: none;
+  padding: 1.1rem;
+  text-align: center;
+}
+
+.th {
+  border: none;
+  text-align: center;
+  font-size: larger;
+  padding: 1rem;
+}
+
+.subheading2 {
+  text-decoration: underline solid;
+  font-weight: bold;
+  color: rgb(91, 119, 119);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#terms:hover{
+  cursor: pointer;
+}
+
+#tableDiv{
+  margin: 0rem;
+  padding: 0rem;
+}
+
